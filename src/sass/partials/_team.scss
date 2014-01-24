@@ -1,0 +1,11 @@
+.team {
+
+  .root-content {
+    article {
+      h1 { font-size:2.35em; margin-bottom:0; }
+      h2 { @extend %ff-alt-header; font-size:1.65em; font-weight:500; }
+      header { text-align:center; margin-top:0.75em; }
+    }
+  }
+
+}

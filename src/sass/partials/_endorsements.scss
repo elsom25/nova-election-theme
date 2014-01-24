@@ -1,0 +1,27 @@
+.endorsements {
+
+  $max_width: 990px;
+  $num_cols: 2;
+  $endr_margin: 10px;
+  $endr_width: ($max_width / $num_cols) - (2 * $endr_margin);
+
+  .wrap {
+    max-width: $max_width;
+    margin: 0 auto;
+  }
+  .endorsement {
+    max-width: $endr_width;
+    margin-left: $endr_margin; margin-right: $endr_margin; margin-bottom: 15px;
+  }
+  .padd { height: 1px; padding-bottom: 1.5rem; }
+
+  .root-content article {
+    padding: 0;
+    header  { margin-top: 0; }
+    section { padding: 0.75em 1.5em; }
+  }
+  .img-wrap { @include border-radius($br $br 0 0); height:300px; overflow:hidden;
+    img { vertical-align:middle; width:100%; }
+  }
+
+}

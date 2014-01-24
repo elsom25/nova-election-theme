@@ -1,0 +1,25 @@
+/*
+Theme Name: Election
+Theme URI:
+Author: Jesse McGinnis
+Author URI: http://jcmcginnis.com/
+Description: Description
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Text Domain: election
+Domain Path: /languages/
+Tags:
+*/
+
+// project settings and frameworks
+@import 'modules/base';
+
+// project specific css
+@import 'partials/globals';
+@import 'partials/static';
+@import 'partials/error';
+@import 'partials/index';
+@import 'partials/blog';
+@import 'partials/team';
+@import 'partials/endorsements';

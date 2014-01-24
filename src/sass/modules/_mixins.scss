@@ -1,0 +1,151 @@
+@mixin standard-link($normal, $underline, $hover:false) {
+  @include link-colors($normal, $hover); border-bottom:1px dotted $underline;
+
+  &:focus { border:1px dashed; }
+  &:hover { background:fade-out($underline, 0.75); border-bottom:1px solid; }
+  &:active { position:relative; top:1px; }
+}
+@mixin link-reset {
+  @include unstyled-link;
+  border-bottom:none; cursor:pointer;
+  &:hover { background:none; }
+  &:active { position:static; }
+}
+
+@mixin inset-text-shadow($text-color, $background-color:white) {
+  color:transparent;
+
+  // Darken & Saturate to correct for shadow
+  $s-text-color: darken(saturate($text-color, 30%), 4%);
+  @include text-shadow(
+    0.04em 0.04em 0.1em rgba($background-color, 0.25),
+    0 0 0 $s-text-color
+  );
+}
+@mixin embed($color, $shadow:lighten($color, 25%)) {
+  @include text-shadow(0 1px 1px $shadow);
+  color:$color;
+}
+@mixin fancy-link-underline($color, $border-bottom-size:2px) {
+  padding-bottom:5px;
+  &:after {
+    @include transition(height 0.3s, opacity 0.3s, transform 0.3s);
+    @include transform(translateY(0));
+    position:absolute; top:100%; left:0; width:100%;
+    height:$border-bottom-size; background:$color;
+    content:'';
+    opacity:1;
+  }
+  &:hover::after, &:focus::after {
+    @include transform(translateY(-5px));
+    opacity:0;
+  }
+}
+@mixin fancy-link-circle {
+  &::before, &::after {
+    @include transition(transform 0.3s, opacity 0.3s);
+    @include transform(translateX(-50%) translateY(-50%) scale(0.2));
+    position:absolute; top:50%; left:50%;
+    width:100px; height:100px;
+    border:2px solid transparentize(black, 0.9); border-radius:50%;
+    content:'';
+    opacity:0;
+  }
+
+  &::after {
+    @include transform(translateX(-50%) translateY(-50%) scale(0.8));
+    width: 90px; height: 90px; border-width: 6px;
+  }
+
+  &:hover, &:focus {
+    &::before, &::after {
+      @include transform(translateX(-50%) translateY(-50%) scale(1));
+      opacity: 1;
+    }
+  }
+}
+@mixin background-embeded-link($link-color: $dark-primary-color, $margin:0.25em 1em) {
+  @extend %ff-main-header;
+  @include embed($link-color);
+  font-weight:600; text-transform:uppercase;
+  border-bottom:2px solid;
+  position:relative;
+  margin:0.25em 0.5em;
+  &:first-child{ margin-left:0; }
+  &:last-child{ margin-right:0; }
+  @include respond-to(medium) {
+    @include fancy-link-underline($link-color);
+    border-bottom:none;
+    display:inline-block;
+    margin:$margin;
+  }
+}
+
+@mixin index-hero-cta($font-color, $background-color:false) {
+  h1 { color:$font-color; line-height:1;
+    @if $background-color { background:$background-color; }
+  }
+  a { @include link-reset; color:$font-color; }
+  p { margin-bottom:0; font-weight:300; letter-spacing:0.05em; }
+}
+@mixin index-hero-row($background-color, $border-color, $font-color, $border-height:false) {
+  background:$background-color;
+  .cta { @include index-hero-cta($font-color, $background-color); }
+  .border { border-color:$border-color; border-color:transparentize($border-color, 0.25);
+    @if $border-height {
+      @include min-screen(70.5em) { height:$border-height; }
+    }
+  }
+}
+
+@mixin standard-box-shadow($color:transparentize(black, 0.4)) {
+  @include single-box-shadow($color: $color, $hoff: 0, $voff: 0, $blur: 7px);
+}
+
+//
+// Media Queries ++
+
+@mixin respond-to($media) {
+  @if $media == medium {
+    @include min-screen(40.063em) { @content; }
+  }
+}
+
+// ====================================
+// Extendables
+
+//
+// Image Replacement Base
+
+@mixin ir { border:0; font:0/0 a; @include text-shadow(none); color:transparent; }
+%ir { @include ir; }
+
+
+//
+// Font Families
+
+%ff-main-header { font-family:$header-font-family; }
+%ff-alt-header  { font-family:'Lato', sans-serif; }
+
+//
+// Others
+
+@mixin vertical-wrap { position:relative; width:100%; display:table; height:100%; }
+%vertical-wrap { @include vertical-wrap; }
+
+@mixin vertical { display:table-cell; vertical-align:middle; width:100%; }
+%vertical { @include vertical; }
+
+%floating-card {
+  @include standard-box-shadow;
+  @include border-radius($br);
+  background:white; padding:0.75em 1.5em; margin-bottom:1.5em;
+  header { margin-bottom:1em; }
+  h2 { font-size:1.8em; margin-bottom:0.2em; }
+}
+@mixin floating-card($background:false, $padding:false, $margin:false) {
+  @extend %floating-card;
+  @if $background { background: $background; }
+  @if $padding { padding: $padding; }
+  @if $margin { margin: $margin; }
+}

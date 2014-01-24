@@ -1,0 +1,57 @@
+.static-page {
+
+  .fancy-dark {
+    background:$off-black; background:url('img/cartographer.png');
+    border-top:2px solid darken($primary-color, 15%); border-bottom:1px solid darken($primary-color, 15%);
+    .root-content { padding-top:1.5em; }
+  }
+
+  .inline-list li { float:none;
+    @include respond-to(medium) { float:left; }
+  }
+
+  .page-header {
+    h1, p { color:white; margin:0; }
+    h1 { @include hyphenation;
+      font-weight:700; margin:0.85em 0 0.15em; text-transform:uppercase;
+      @include respond-to(medium) { font-size:4.2em; }
+    }
+    p, .inline-list { @extend %ff-alt-header; font-weight:300; color:white; margin-bottom:1em;
+      @include respond-to(medium) { font-size:1.6em; }
+      a { @include standard-link(white, white); display:inline-block; }
+    }
+  }
+
+  .root-content {
+    article { @include floating-card($off-white);
+      header { margin:1.5em auto 0; }
+
+      .circle { $size:115px; $border-size:5px;
+        background:$primary-color; overflow:hidden; display:inline-block;
+        width:$size; height:$size;
+        border-radius:100%; border:$border-size solid $primary-color;
+        @include respond-to(medium) { margin-right:2em; }
+        .icon-wrap { @extend .vertical; width:$size - $border-size; height:$size - (2 * $border-size); text-align:center;
+          i { color:$off-white; }
+        }
+      }
+
+    }
+    .accordion {
+      dd { border:1px solid darken($off-white, 25%); border-top:none;
+        &:first-child { border-top:1px solid darken($off-white, 25%); }
+      }
+    }
+  }
+
+  .section-container .content {
+    a { @include standard-link($primary-color, $primary-color); }
+  }
+
+  .post-navigation {
+    h1 { display:none; }
+    .nav-previous { float:left; margin-right:0.5em; }
+    .nav-next { float:right; margin-left:0.5em; }
+  }
+
+}

@@ -1,0 +1,141 @@
+body { background:$primary-color; }
+b { color:$primary-color; font-weight:700; }
+
+::selection { background:$primary-color; color:white; }
+::-moz-selection { background:$primary-color; color:white; }
+
+abbr[title], acronym[title], dfn[title], time[title] { border-bottom:1px solid; cursor:help; }
+abbr, acronym, time { font-size:85%; letter-spacing:0.1em; text-transform:uppercase; }
+time { text-transform:none; }
+
+//
+// TEMP HACK: Bugfix override for sub-nav hover colours
+.sub-nav dt a:hover, .sub-nav dd a:hover, .sub-nav li a:hover {
+  color: scale-color($sub-nav-active-bg, $lightness: -14%);
+}
+.sub-nav dt.active a:hover, .sub-nav dd.active a:hover, .sub-nav li.active a:hover {
+  color: white;
+  background: scale-color($sub-nav-active-bg, $lightness: -14%);
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+  background: $dark-primary-color;
+}
+
+//
+// Sticky Nav
+
+// Wordpress admin bar
+.f-topbar-fixed {
+  padding-top:69px - 28px !important;
+  &.vote-now { padding-top:69px - 28px + 48px !important; }
+}
+
+// Foundation top bar
+.main-nav { border-bottom:1px solid white; }
+.top-bar {
+  .name { @extend %ff-main-header; text-transform:uppercase; letter-spacing:0.05em;
+    h1 { font-size:1.25em; }
+  }
+  .top-bar-section { @extend %ff-alt-header;
+    li a:not(.button) { @include screen(40.063em, 50em) { padding:0 10px; } }
+  }
+}
+
+// Foudnation sillyness with flex-video
+.flex-video-safe { @extend .flex-video; }
+
+//
+// Modals
+
+.title-bar-modal { padding:0; border:none;
+  header { background:$primary-color; border:1px solid $dark-primary-color; border-bottom-width:3px; padding:1rem 0 0.5rem; text-align:center;
+    h1, h2, h3 { color:white; margin:0;  }
+  }
+  section { padding:1.875rem; border:1px solid #666; border-top:none; }
+  .close-reveal-modal { color:$dark-primary-color; }
+  .candidates { max-width:25rem; margin-right:auto; margin-left:auto; }
+  .vote { margin-bottom:0.75rem; }
+}
+
+//
+// Image Replacement
+
+@include min-screen(46em) {
+  .ir-nova { @include ir; background:url(img/nova-logo-small.png); height:29px; width:236px; background-size:100%; }
+  span.ir-nova { top:-3px; display:inline-block; vertical-align:middle; position:relative; }
+}
+
+//
+// Global footer
+
+.site-footer { padding:5em 0 2em; text-align:center;
+  @extend %ff-alt-header;
+
+  .fancy {
+    color:mix($primary-color, white, 40%); color:transparentize(white, 0.4);
+    font-size:1.2em; font-weight:300;
+
+    a { @include background-embeded-link($margin:0.25em); display: inline-block;
+      @include respond-to(medium) { padding-bottom:2px; }
+    }
+  }
+
+  .simple { padding-top:4em;
+    ul { text-align:center; }
+    li { display:inline-block; margin-right:1em;
+      &:last-child { margin-right:0; }
+    }
+    a { color:$dark-primary-color; text-decoration:underline;
+      &:hover, &:active { color:darken($dark-primary-color, 5%); }
+    }
+  }
+
+  .site-navigation { // Social media
+    margin-bottom:1em;
+    @include respond-to(medium) { margin-bottom:2em; }
+
+    a { @include respond-to(medium) { margin:0 1em; padding-bottom:5px; } }
+  }
+}
+
+//
+// Misc
+
+// vertical centering
+.vertical-wrap { @extend %vertical-wrap; }
+.vertical { @extend %vertical; }
+
+// JS magics
+.acts-as-link, .vote-cta { cursor:pointer; }
+.vote-cta { background:$off-black; padding:1em;
+  a { @include link-reset; color:white;
+    -webkit-animation-name: subtle_light_glow;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+  }
+  a::before,
+  a::after { display: inline-block; opacity: 0;
+    @include transition(-webkit-transform 0.3s, opacity 0.2s);
+  }
+  a::before { margin-right: 10px; content: '[';
+    @include transform(translateX(20px));
+  }
+  a::after { margin-left: 10px; content: ']';
+    @include transform(translateX(-20px));
+  }
+  a:hover::before,
+  a:hover::after,
+  a:focus::before,
+  a:focus::after { opacity: 1;
+    @include transform(translateX(0px));
+  }
+}
+@-webkit-keyframes subtle_light_glow {
+  0% { }
+  5%,25% { @include text-shadow(0 0 3px $med-gray); }
+  15%,35% { @include text-shadow(0 0 12px $off-white); }
+  45% { @include text-shadow(none); }
+}

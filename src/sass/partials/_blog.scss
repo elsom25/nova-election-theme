@@ -1,0 +1,24 @@
+.blog {
+
+	&.single {
+    .root-content { margin-top:5em; }
+  }
+
+  .root-content {
+    article {
+      header { margin-top:0; }
+      footer { margin-bottom:1em; }
+      h2 { font-size:2.2em; }
+    }
+  }
+
+  .post-navigation, .paging-navigation { margin-bottom:2em;
+    h1 { color:white; }
+    a { font-size:1.2em; display: inline-block; }
+  }
+  .post-navigation {
+    h1 { font-size:2.2em; }
+    a { @include background-embeded-link; }
+  }
+
+}

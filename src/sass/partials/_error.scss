@@ -1,0 +1,17 @@
+.not-found {
+
+  fieldset {
+    legend { background:none; }
+  }
+
+  .root-content {
+    article {
+      h2 { @extend %ff-alt-header; font-weight:300; }
+    }
+  }
+  .widget {
+  	h2 { display:none; }
+  	ul { @include column-count(2); }
+  }
+
+}
