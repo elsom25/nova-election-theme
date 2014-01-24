@@ -50,35 +50,13 @@ get_header(); ?>
         </article>
       </div>
       <div class="large-6 columns">
-        <article class="vpof" id="vpof">
-          <header>
-            <img src="<?php bloginfo('template_url'); ?>/img/profile_elizabeth.jpg" />
-          </header>
-          <section>
-            <h1>
-              Elizabeth McFaul
-            </h1>
-            <h2>
-              VP Ops &amp; Finance Candidate
-            </h2>
-            <ul class="inline-list">
-              <li><a href="//twitter.com/lagunacarta"><i class="fa fa-twitter"></i> @lagunacarta</a></li>
-              <li class="hide-for-small-only">|</li>
-              <li><a href="mailto:elmcfaul@uwaterloo.ca"><i class="fa fa-envelope"></i> elmcfaul</a></li>
-            </ul>
-          </section>
-        </article>
-      </div>
-    </div>
-    <div class="row">
-      <div class="large-6 columns">
         <article class="vped" id="vped">
           <header>
             <img src="<?php bloginfo('template_url'); ?>/img/profile_luke.jpg" />
           </header>
           <section>
             <h1>
-              Luke MacIntosh
+              Luke McIntosh
             </h1>
             <h2>
               VP Education Candidate
@@ -91,6 +69,9 @@ get_header(); ?>
           </section>
         </article>
       </div>
+    </div>
+    <div class="row">
+
       <div class="large-6 columns">
         <article class="vpin" id="vpin">
           <header>
@@ -107,6 +88,26 @@ get_header(); ?>
               <li><a href="//twitter.com/anjali_gopal"><i class="fa fa-twitter"></i> @anjali_gopal</a></li>
               <li class="hide-for-small-only">|</li>
               <li><a href="mailto:anjali.gopal@uwaterloo.ca"><i class="fa fa-envelope"></i> anjali.gopal</a></li>
+            </ul>
+          </section>
+        </article>
+      </div>
+      <div class="large-6 columns">
+        <article class="vpof" id="vpof">
+          <header>
+            <img src="<?php bloginfo('template_url'); ?>/img/profile_elizabeth.jpg" />
+          </header>
+          <section>
+            <h1>
+              Elizabeth McFaul
+            </h1>
+            <h2>
+              VP Ops &amp; Finance Candidate
+            </h2>
+            <ul class="inline-list">
+              <li><a href="//twitter.com/lagunacarta"><i class="fa fa-twitter"></i> @lagunacarta</a></li>
+              <li class="hide-for-small-only">|</li>
+              <li><a href="mailto:elmcfaul@uwaterloo.ca"><i class="fa fa-envelope"></i> elmcfaul</a></li>
             </ul>
           </section>
         </article>

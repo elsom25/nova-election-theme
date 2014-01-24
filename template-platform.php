@@ -133,33 +133,6 @@ get_header(); ?>
             </div>
           </section>
         </article>
-        <article class="vpof" id="vpof">
-          <header>
-            <div class="row">
-              <div class="large-6 columns">
-                <img src="<?php bloginfo('template_url'); ?>/img/profile_elizabeth.jpg" />
-              </div>
-              <div class="large-6 columns">
-                <h1>
-                  Vice-President Operations &amp; Finance
-                </h1>
-                <p>
-                  Lorem ipsum In voluptate eiusmod aute minim et consequat pariatur dolore deserunt esse ea in exercitation aute laboris veniam ullamco incididunt dolore commodo do sit fugiat
-                </p>
-              </div>
-            </div>
-          </header>
-          <section>
-            <div class="row">
-              <div class="small-12 columns">
-                <?php
-                $category_name = 'vpof';
-                include( TEMPLATEPATH . '/template-platform-accordion.php' );
-                ?>
-              </div>
-            </div>
-          </section>
-        </article>
         <article class="vped" id="vped">
           <header>
             <div class="row">
@@ -208,6 +181,33 @@ get_header(); ?>
               <div class="small-12 columns">
                 <?php
                 $category_name = 'vpin';
+                include( TEMPLATEPATH . '/template-platform-accordion.php' );
+                ?>
+              </div>
+            </div>
+          </section>
+        </article>
+        <article class="vpof" id="vpof">
+          <header>
+            <div class="row">
+              <div class="large-6 columns">
+                <img src="<?php bloginfo('template_url'); ?>/img/profile_elizabeth.jpg" />
+              </div>
+              <div class="large-6 columns">
+                <h1>
+                  Vice-President Operations &amp; Finance
+                </h1>
+                <p>
+                  Lorem ipsum In voluptate eiusmod aute minim et consequat pariatur dolore deserunt esse ea in exercitation aute laboris veniam ullamco incididunt dolore commodo do sit fugiat
+                </p>
+              </div>
+            </div>
+          </header>
+          <section>
+            <div class="row">
+              <div class="small-12 columns">
+                <?php
+                $category_name = 'vpof';
                 include( TEMPLATEPATH . '/template-platform-accordion.php' );
                 ?>
               </div>

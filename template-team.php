@@ -53,36 +53,6 @@ get_header(); ?>
         </article>
       </div>
       <div class="large-6 columns">
-        <article class="vpof" id="vpof">
-          <header>
-            <img src="<?php bloginfo('template_url'); ?>/img/profile_elizabeth.jpg" />
-          </header>
-          <section>
-            <h1>Elizabeth McFaul</h1>
-            <h2>VP Ops &amp; Finance Candidate</h2>
-            <p>My name is Elizabeth McFaul, and I’m a fifth year in marketing and statistics.</p>
-            <p>I spend a lot of my time working with various theatre groups as a stage manager. I’ve been involved with theatre for over 10 years now, and have loved every moment of it! There’s something magical about watching a show from auditions to opening night, and seeing it evolve. I usually tend to stay backstage, directing all the lights and the furniture, and tripping over things in the dark—but I’ve become the person who can handle anything that goes wrong, because the show must go on (even if you’re missing actors)!</p>
-            <p>I’m also obsessed with marketing and advertising. I’m the person who actually watches the commercials&mdash;<a href="https://www.youtube.com/watch?v=H6vodh47-U8" target="_blank">the M&M ones</a> are some of my favourites. A big part of my priorities for next year will be reinventing how Feds communicates with students: AMAs, polls, social media, and more. If you see me around campus over the next few weeks, share your favourite ad or way a product got you interested!</p>
-
-            <dl class="accordion accordion-no-expand" data-accordion="">
-              <dd>
-                <a href="#vpof-experience">My experiences</a>
-                <div id="vpof-experience" class="content">
-                  <p>I've done some shit.</p>
-                  <ul class="round">
-                    <li>Thing 1</li>
-                    <li>Thing 2</li>
-                    <li>Thing 3</li>
-                  </ul>
-                </div>
-              </dd>
-            </dl>
-          </section>
-        </article>
-      </div>
-    </div>
-    <div class="row">
-      <div class="large-6 columns">
         <article class="vped" id="vped">
           <header>
             <img src="<?php bloginfo('template_url'); ?>/img/profile_luke.jpg" />
@@ -109,6 +79,9 @@ get_header(); ?>
           </section>
         </article>
       </div>
+    </div>
+    <div class="row">
+
       <div class="large-6 columns">
         <article class="vpin" id="vpin">
           <header>
@@ -127,6 +100,34 @@ get_header(); ?>
               <strong>Vision for Feds</strong>: Strong Business Operations and Consistent, Two-Way Communication with Students. <br />
               <strong>What’s Your Waterloo?</strong>: My Waterloo is increased study space. My Waterloo is opportunities for students to reach for their full potential, academically and professionally.
             </p>
+          </section>
+        </article>
+      </div>
+      <div class="large-6 columns">
+        <article class="vpof" id="vpof">
+          <header>
+            <img src="<?php bloginfo('template_url'); ?>/img/profile_elizabeth.jpg" />
+          </header>
+          <section>
+            <h1>Elizabeth McFaul</h1>
+            <h2>VP Ops &amp; Finance Candidate</h2>
+            <p>My name is Elizabeth McFaul, and I’m a fifth year in marketing and statistics.</p>
+            <p>I spend a lot of my time working with various theatre groups as a stage manager. I’ve been involved with theatre for over 10 years now, and have loved every moment of it! There’s something magical about watching a show from auditions to opening night, and seeing it evolve. I usually tend to stay backstage, directing all the lights and the furniture, and tripping over things in the dark—but I’ve become the person who can handle anything that goes wrong, because the show must go on (even if you’re missing actors)!</p>
+            <p>I’m also obsessed with marketing and advertising. I’m the person who actually watches the commercials&mdash;<a href="https://www.youtube.com/watch?v=H6vodh47-U8" target="_blank">the M&M ones</a> are some of my favourites. A big part of my priorities for next year will be reinventing how Feds communicates with students: AMAs, polls, social media, and more. If you see me around campus over the next few weeks, share your favourite ad or way a product got you interested!</p>
+
+            <dl class="accordion accordion-no-expand" data-accordion="">
+              <dd>
+                <a href="#vpof-experience">My experiences</a>
+                <div id="vpof-experience" class="content">
+                  <p>I've done some shit.</p>
+                  <ul class="round">
+                    <li>Thing 1</li>
+                    <li>Thing 2</li>
+                    <li>Thing 3</li>
+                  </ul>
+                </div>
+              </dd>
+            </dl>
           </section>
         </article>
       </div>
