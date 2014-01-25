@@ -2707,7 +2707,7 @@ time { text-transform: none; }
 /* line 26, src/sass/partials/_static.scss */
 .static-page .root-content article { background: #eeeeee; padding-top: 1.5em; padding-bottom: 1.5em; }
 /* line 27, src/sass/partials/_static.scss */
-.static-page .root-content article header { margin: 0 auto 2em; }
+.static-page .root-content article header { margin: 0 auto 1em; }
 /* line 29, src/sass/partials/_static.scss */
 .static-page .root-content article .circle { background: #af2229; overflow: hidden; display: inline-block; width: 115px; height: 115px; border-radius: 100%; border: 5px solid #af2229; }
 @media screen and (min-width: 40.063em) { /* line 29, src/sass/partials/_static.scss */
