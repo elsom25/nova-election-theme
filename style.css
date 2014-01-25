@@ -2708,19 +2708,21 @@ time { text-transform: none; }
 .static-page .root-content article { background: #eeeeee; padding-top: 1.5em; padding-bottom: 1.5em; }
 /* line 27, src/sass/partials/_static.scss */
 .static-page .root-content article header { margin: 0 auto 1em; }
-/* line 29, src/sass/partials/_static.scss */
+/* line 28, src/sass/partials/_static.scss */
+.static-page .root-content article header img { display: block; margin: 0 auto; }
+/* line 31, src/sass/partials/_static.scss */
 .static-page .root-content article .circle { background: #af2229; overflow: hidden; display: inline-block; width: 115px; height: 115px; border-radius: 100%; border: 5px solid #af2229; }
-@media screen and (min-width: 40.063em) { /* line 29, src/sass/partials/_static.scss */
+@media screen and (min-width: 40.063em) { /* line 31, src/sass/partials/_static.scss */
   .static-page .root-content article .circle { margin-right: 2em; } }
-/* line 34, src/sass/partials/_static.scss */
+/* line 36, src/sass/partials/_static.scss */
 .static-page .root-content article .circle .icon-wrap { width: 110px; height: 105px; text-align: center; }
-/* line 35, src/sass/partials/_static.scss */
+/* line 37, src/sass/partials/_static.scss */
 .static-page .root-content article .circle .icon-wrap i { color: #eeeeee; }
-/* line 41, src/sass/partials/_static.scss */
+/* line 43, src/sass/partials/_static.scss */
 .static-page .root-content .accordion dd { border: 1px solid #aeaeae; border-top: none; }
-/* line 42, src/sass/partials/_static.scss */
+/* line 44, src/sass/partials/_static.scss */
 .static-page .root-content .accordion dd:first-child { border-top: 1px solid #aeaeae; }
-/* line 48, src/sass/partials/_static.scss */
+/* line 50, src/sass/partials/_static.scss */
 .static-page .section-container .content a { color: #af2229; border-bottom: 1px dotted #af2229; }
 /* line 4, src/sass/modules/_mixins.scss */
 .static-page .section-container .content a:focus { border: 1px dashed; }

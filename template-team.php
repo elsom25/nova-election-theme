@@ -94,12 +94,9 @@ get_header(); ?>
             <h2>
               VP Internal
             </h2>
-            <p>
-              <strong>Program</strong>: Math and Business Double Degree Student (Marketing and Statistics). <br />
-              <strong>Past Experience</strong>: Past MathSoc President. Product Marketing Specialist (OpenText). <br />
-              <strong>Vision for Feds</strong>: Strong Business Operations and Consistent, Two-Way Communication with Students. <br />
-              <strong>What’s Your Waterloo?</strong>: My Waterloo is increased study space. My Waterloo is opportunities for students to reach for their full potential, academically and professionally.
-            </p>
+            <p>My name is Anjali Gopal, and I’m in 4B Nanotechnology Engineering. Before deciding to go into engineering, I considered a varitey career choices such as a webdesigner, a teacher (doesn’t everybody?), a doctor, and a <i>writer</i>, but eventually, my love for science and math drew me to engineering. I have yet to regret my choice!</p>
+            <p>You’ll quickly find that I’m extremely geeky, and have some really peculiar talents. For instance, I know how to say “in the name of the Moon, I shall punish you” in Japanese (a skill that I developed while watching the entire live action version of Pretty Guardian Sailor Moon). I also love to read (mostly fantasy novels; Game of Thrones FTW), and I adore sci-fi movies and TV shows.</p>
+            <p>When I’m not geeking out with my latest fangirly obsession, I like to get involved in campus life. I’ve been heavily involved with orientation, and in a variety of Mental Health & Wellness initiatives. I’m extremely passionate about improving student life at Waterloo. I’m very outgoing and love to help people, so feel free to come up and say “Hi!”</p>
           </section>
         </article>
       </div>
@@ -112,7 +109,7 @@ get_header(); ?>
             <h1>Elizabeth McFaul</h1>
             <h2>VP Ops &amp; Finance Candidate</h2>
             <p>My name is Elizabeth McFaul, and I’m a fifth year in marketing and statistics.</p>
-            <p>I spend a lot of my time working with various theatre groups as a stage manager. I’ve been involved with theatre for over 10 years now, and have loved every moment of it! There’s something magical about watching a show from auditions to opening night, and seeing it evolve. I usually tend to stay backstage, directing all the lights and the furniture, and tripping over things in the dark—but I’ve become the person who can handle anything that goes wrong, because the show must go on (even if you’re missing actors)!</p>
+            <p>I spend a lot of my time working with various theatre groups as a stage manager. I’ve been involved with theatre for over 10 years now, and have loved every moment of it! There’s something magical about watching a show from auditions to opening night, and seeing it evolve. I usually tend to stay backstage, directing all the lights and the furniture, and tripping over things in the dark—but I’ve become the person who can handle anything that goes wrong, because the show must go on (even if you’re missing actors)! </p>
             <p>I’m also obsessed with marketing and advertising. I’m the person who actually watches the commercials&mdash;<a href="https://www.youtube.com/watch?v=H6vodh47-U8" target="_blank">the M&M ones</a> are some of my favourites. A big part of my priorities for next year will be reinventing how Feds communicates with students: AMAs, polls, social media, and more. If you see me around campus over the next few weeks, share your favourite ad or way a product got you interested!</p>
 
             <dl class="accordion accordion-no-expand" data-accordion="">

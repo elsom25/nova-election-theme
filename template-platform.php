@@ -102,7 +102,7 @@ get_header(); ?>
     <div id="by-portfolio" class="row platform-collection" style="display:none;">
       <div class="small-12 columns">
         <div data-alert class="alert-box radius text-center">
-          You may see duplication since projects overlap exec
+          Projects duplicate due to overlap of exec responsiblities
           <a href="#" class="close">&times;</a>
         </div>
         <article class="pres radius" id="pres">
