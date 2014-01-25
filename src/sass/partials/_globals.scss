@@ -54,7 +54,9 @@ time { text-transform:none; }
   }
   section { padding:1.875rem; border:1px solid #666; border-top:none; }
   .close-reveal-modal { color:$dark-primary-color; }
-  .candidates { max-width:25rem; margin-right:auto; margin-left:auto; }
+  .candidates { max-width:25rem; margin-right:auto; margin-left:auto;
+    li { line-height:1.8; }
+  }
   .vote { margin-bottom:0.75rem; }
 }
 

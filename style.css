@@ -2604,55 +2604,57 @@ time { text-transform: none; }
 /* line 57, src/sass/partials/_globals.scss */
 .title-bar-modal .candidates { max-width: 25rem; margin-right: auto; margin-left: auto; }
 /* line 58, src/sass/partials/_globals.scss */
+.title-bar-modal .candidates li { line-height: 1.8; }
+/* line 60, src/sass/partials/_globals.scss */
 .title-bar-modal .vote { margin-bottom: 0.75rem; }
 
-@media screen and (min-width: 46em) { /* line 65, src/sass/partials/_globals.scss */
+@media screen and (min-width: 46em) { /* line 67, src/sass/partials/_globals.scss */
   .ir-nova { border: 0; font: 0/0 a; text-shadow: none; color: transparent; background: url(img/nova-logo-small.png); height: 29px; width: 236px; background-size: 100%; }
-  /* line 66, src/sass/partials/_globals.scss */
+  /* line 68, src/sass/partials/_globals.scss */
   span.ir-nova { top: -3px; display: inline-block; vertical-align: middle; position: relative; } }
-/* line 72, src/sass/partials/_globals.scss */
+/* line 74, src/sass/partials/_globals.scss */
 .site-footer { padding: 5em 0 2em; text-align: center; }
-/* line 75, src/sass/partials/_globals.scss */
+/* line 77, src/sass/partials/_globals.scss */
 .site-footer .fancy { color: #dfa6a9; color: rgba(255, 255, 255, 0.6); font-size: 1.2em; font-weight: 300; }
-/* line 79, src/sass/partials/_globals.scss */
+/* line 81, src/sass/partials/_globals.scss */
 .site-footer .fancy a { text-shadow: 0 1px 1px #d8363e; color: #77171c; font-weight: 600; text-transform: uppercase; border-bottom: 2px solid; position: relative; margin: 0.25em 0.5em; display: inline-block; }
 /* line 74, src/sass/modules/_mixins.scss */
 .site-footer .fancy a:first-child { margin-left: 0; }
 /* line 75, src/sass/modules/_mixins.scss */
 .site-footer .fancy a:last-child { margin-right: 0; }
-@media screen and (min-width: 40.063em) { /* line 79, src/sass/partials/_globals.scss */
+@media screen and (min-width: 40.063em) { /* line 81, src/sass/partials/_globals.scss */
   .site-footer .fancy a { padding-bottom: 5px; border-bottom: none; display: inline-block; margin: 0.25em; }
   /* line 31, src/sass/modules/_mixins.scss */
   .site-footer .fancy a:after { -webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s; -moz-transition: height 0.3s, opacity 0.3s, -moz-transform 0.3s; -o-transition: height 0.3s, opacity 0.3s, -o-transform 0.3s; transition: height 0.3s, opacity 0.3s, transform 0.3s; -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); position: absolute; top: 100%; left: 0; width: 100%; height: 2px; background: #77171c; content: ''; opacity: 1; }
   /* line 39, src/sass/modules/_mixins.scss */
   .site-footer .fancy a:hover::after, .site-footer .fancy a:focus::after { -webkit-transform: translateY(-5px); -moz-transform: translateY(-5px); -ms-transform: translateY(-5px); -o-transform: translateY(-5px); transform: translateY(-5px); opacity: 0; } }
-@media screen and (min-width: 40.063em) { /* line 79, src/sass/partials/_globals.scss */
+@media screen and (min-width: 40.063em) { /* line 81, src/sass/partials/_globals.scss */
   .site-footer .fancy a { padding-bottom: 2px; } }
-/* line 84, src/sass/partials/_globals.scss */
-.site-footer .simple { padding-top: 4em; }
-/* line 85, src/sass/partials/_globals.scss */
-.site-footer .simple ul { text-align: center; }
 /* line 86, src/sass/partials/_globals.scss */
-.site-footer .simple li { display: inline-block; margin-right: 1em; }
+.site-footer .simple { padding-top: 4em; }
 /* line 87, src/sass/partials/_globals.scss */
-.site-footer .simple li:last-child { margin-right: 0; }
+.site-footer .simple ul { text-align: center; }
+/* line 88, src/sass/partials/_globals.scss */
+.site-footer .simple li { display: inline-block; margin-right: 1em; }
 /* line 89, src/sass/partials/_globals.scss */
+.site-footer .simple li:last-child { margin-right: 0; }
+/* line 91, src/sass/partials/_globals.scss */
 .site-footer .simple a { color: #77171c; text-decoration: underline; }
-/* line 90, src/sass/partials/_globals.scss */
+/* line 92, src/sass/partials/_globals.scss */
 .site-footer .simple a:hover, .site-footer .simple a:active { color: #621317; }
-/* line 94, src/sass/partials/_globals.scss */
+/* line 96, src/sass/partials/_globals.scss */
 .site-footer .site-navigation { margin-bottom: 1em; }
-@media screen and (min-width: 40.063em) { /* line 94, src/sass/partials/_globals.scss */
+@media screen and (min-width: 40.063em) { /* line 96, src/sass/partials/_globals.scss */
   .site-footer .site-navigation { margin-bottom: 2em; } }
-@media screen and (min-width: 40.063em) { /* line 98, src/sass/partials/_globals.scss */
+@media screen and (min-width: 40.063em) { /* line 100, src/sass/partials/_globals.scss */
   .site-footer .site-navigation a { margin: 0 1em; padding-bottom: 5px; } }
 
-/* line 110, src/sass/partials/_globals.scss */
+/* line 112, src/sass/partials/_globals.scss */
 .acts-as-link, .vote-cta { cursor: pointer; }
 
-/* line 111, src/sass/partials/_globals.scss */
+/* line 113, src/sass/partials/_globals.scss */
 .vote-cta { background: #222222; padding: 1em; }
-/* line 112, src/sass/partials/_globals.scss */
+/* line 114, src/sass/partials/_globals.scss */
 .vote-cta a { color: inherit; text-decoration: inherit; cursor: inherit; border-bottom: none; cursor: pointer; color: white; -webkit-animation-name: subtle_light_glow; -webkit-animation-duration: 5s; -webkit-animation-iteration-count: infinite; -webkit-animation-timing-function: linear; -webkit-animation-delay: 2s; }
 /* line 6, ../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/typography/links/_unstyled-link.scss */
 .vote-cta a:active, .vote-cta a:focus { outline: none; }
@@ -2660,20 +2662,20 @@ time { text-transform: none; }
 .vote-cta a:hover { background: none; }
 /* line 12, src/sass/modules/_mixins.scss */
 .vote-cta a:active { position: static; }
-/* line 120, src/sass/partials/_globals.scss */
+/* line 122, src/sass/partials/_globals.scss */
 .vote-cta a::before, .vote-cta a::after { display: inline-block; opacity: 0; -webkit-transition: -webkit-transform 0.3s, opacity 0.2s; -moz-transition: -webkit-transform 0.3s, opacity 0.2s; -o-transition: -webkit-transform 0.3s, opacity 0.2s; transition: -webkit-transform 0.3s, opacity 0.2s; }
-/* line 123, src/sass/partials/_globals.scss */
+/* line 125, src/sass/partials/_globals.scss */
 .vote-cta a::before { margin-right: 10px; content: '['; -webkit-transform: translateX(20px); -moz-transform: translateX(20px); -ms-transform: translateX(20px); -o-transform: translateX(20px); transform: translateX(20px); }
-/* line 126, src/sass/partials/_globals.scss */
+/* line 128, src/sass/partials/_globals.scss */
 .vote-cta a::after { margin-left: 10px; content: ']'; -webkit-transform: translateX(-20px); -moz-transform: translateX(-20px); -ms-transform: translateX(-20px); -o-transform: translateX(-20px); transform: translateX(-20px); }
-/* line 132, src/sass/partials/_globals.scss */
+/* line 134, src/sass/partials/_globals.scss */
 .vote-cta a:hover::before, .vote-cta a:hover::after, .vote-cta a:focus::before, .vote-cta a:focus::after { opacity: 1; -webkit-transform: translateX(0px); -moz-transform: translateX(0px); -ms-transform: translateX(0px); -o-transform: translateX(0px); transform: translateX(0px); }
 
-@-webkit-keyframes subtle_light_glow { /* line 138, src/sass/partials/_globals.scss */
+@-webkit-keyframes subtle_light_glow { /* line 140, src/sass/partials/_globals.scss */
   5%,25% { text-shadow: 0 0 3px #999999; }
-  /* line 139, src/sass/partials/_globals.scss */
+  /* line 141, src/sass/partials/_globals.scss */
   15%,35% { text-shadow: 0 0 12px #eeeeee; }
-  /* line 140, src/sass/partials/_globals.scss */
+  /* line 142, src/sass/partials/_globals.scss */
   45% { text-shadow: none; } }
 
 /* line 3, src/sass/partials/_static.scss */
