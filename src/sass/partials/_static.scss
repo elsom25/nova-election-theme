@@ -48,10 +48,6 @@
     a { @include standard-link($primary-color, $primary-color); }
   }
 
-  .post-navigation {
-    h1 { display:none; }
-    .nav-previous { float:left; margin-right:0.5em; }
-    .nav-next { float:right; margin-left:0.5em; }
-  }
+
 
 }

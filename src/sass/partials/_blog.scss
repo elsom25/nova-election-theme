@@ -2,6 +2,7 @@
 
 	&.single {
     .root-content { margin-top:5em; }
+    .post-meta { margin-bottom:1em; }
   }
 
   .root-content {
@@ -12,13 +13,15 @@
     }
   }
 
-  .post-navigation, .paging-navigation { margin-bottom:2em;
-    h1 { color:white; }
+  .post-navigation, .paging-navigation {
+    h1 { display:none; }
     a { font-size:1.2em; display: inline-block; }
+    .nav-previous { float:left; margin-right:0.5em; }
+    .nav-next { float:right; margin-left:0.5em; }
   }
-  .post-navigation {
-    h1 { font-size:2.2em; }
+  .post-navigation { padding-bottom:2em;
     a { @include background-embeded-link; }
   }
+  .paging-navigation { padding-top:1em; padding-bottom:4em; }
 
 }

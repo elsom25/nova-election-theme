@@ -2728,12 +2728,6 @@ time { text-transform: none; }
 .static-page .section-container .content a:hover { background: rgba(175, 34, 41, 0.25); border-bottom: 1px solid; }
 /* line 6, src/sass/modules/_mixins.scss */
 .static-page .section-container .content a:active { position: relative; top: 1px; }
-/* line 52, src/sass/partials/_static.scss */
-.static-page .post-navigation h1 { display: none; }
-/* line 53, src/sass/partials/_static.scss */
-.static-page .post-navigation .nav-previous { float: left; margin-right: 0.5em; }
-/* line 54, src/sass/partials/_static.scss */
-.static-page .post-navigation .nav-next { float: right; margin-left: 0.5em; }
 
 /* line 4, src/sass/partials/_error.scss */
 .not-found fieldset legend { background: none; }
@@ -2907,32 +2901,38 @@ time { text-transform: none; }
 
 /* line 4, src/sass/partials/_blog.scss */
 .blog.single .root-content { margin-top: 5em; }
-/* line 9, src/sass/partials/_blog.scss */
-.blog .root-content article header { margin-top: 0; }
+/* line 5, src/sass/partials/_blog.scss */
+.blog.single .post-meta { margin-bottom: 1em; }
 /* line 10, src/sass/partials/_blog.scss */
-.blog .root-content article footer { margin-bottom: 1em; }
+.blog .root-content article header { margin-top: 0; }
 /* line 11, src/sass/partials/_blog.scss */
+.blog .root-content article footer { margin-bottom: 1em; }
+/* line 12, src/sass/partials/_blog.scss */
 .blog .root-content article h2 { font-size: 2.2em; }
-/* line 15, src/sass/partials/_blog.scss */
-.blog .post-navigation, .blog .paging-navigation { margin-bottom: 2em; }
-/* line 16, src/sass/partials/_blog.scss */
-.blog .post-navigation h1, .blog .paging-navigation h1 { color: white; }
 /* line 17, src/sass/partials/_blog.scss */
+.blog .post-navigation h1, .blog .paging-navigation h1 { display: none; }
+/* line 18, src/sass/partials/_blog.scss */
 .blog .post-navigation a, .blog .paging-navigation a { font-size: 1.2em; display: inline-block; }
+/* line 19, src/sass/partials/_blog.scss */
+.blog .post-navigation .nav-previous, .blog .paging-navigation .nav-previous { float: left; margin-right: 0.5em; }
 /* line 20, src/sass/partials/_blog.scss */
-.blog .post-navigation h1 { font-size: 2.2em; }
-/* line 21, src/sass/partials/_blog.scss */
+.blog .post-navigation .nav-next, .blog .paging-navigation .nav-next { float: right; margin-left: 0.5em; }
+/* line 22, src/sass/partials/_blog.scss */
+.blog .post-navigation { padding-bottom: 2em; }
+/* line 23, src/sass/partials/_blog.scss */
 .blog .post-navigation a { text-shadow: 0 1px 1px #d8363e; color: #77171c; font-weight: 600; text-transform: uppercase; border-bottom: 2px solid; position: relative; margin: 0.25em 0.5em; }
 /* line 74, src/sass/modules/_mixins.scss */
 .blog .post-navigation a:first-child { margin-left: 0; }
 /* line 75, src/sass/modules/_mixins.scss */
 .blog .post-navigation a:last-child { margin-right: 0; }
-@media screen and (min-width: 40.063em) { /* line 21, src/sass/partials/_blog.scss */
+@media screen and (min-width: 40.063em) { /* line 23, src/sass/partials/_blog.scss */
   .blog .post-navigation a { padding-bottom: 5px; border-bottom: none; display: inline-block; margin: 0.25em 1em; }
   /* line 31, src/sass/modules/_mixins.scss */
   .blog .post-navigation a:after { -webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s; -moz-transition: height 0.3s, opacity 0.3s, -moz-transform 0.3s; -o-transition: height 0.3s, opacity 0.3s, -o-transform 0.3s; transition: height 0.3s, opacity 0.3s, transform 0.3s; -webkit-transform: translateY(0); -moz-transform: translateY(0); -ms-transform: translateY(0); -o-transform: translateY(0); transform: translateY(0); position: absolute; top: 100%; left: 0; width: 100%; height: 2px; background: #77171c; content: ''; opacity: 1; }
   /* line 39, src/sass/modules/_mixins.scss */
   .blog .post-navigation a:hover::after, .blog .post-navigation a:focus::after { -webkit-transform: translateY(-5px); -moz-transform: translateY(-5px); -ms-transform: translateY(-5px); -o-transform: translateY(-5px); transform: translateY(-5px); opacity: 0; } }
+/* line 25, src/sass/partials/_blog.scss */
+.blog .paging-navigation { padding-top: 1em; padding-bottom: 4em; }
 
 /* line 5, src/sass/partials/_team.scss */
 .team .root-content article h1 { font-size: 2.35em; margin-bottom: 0; }
