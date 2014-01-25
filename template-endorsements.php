@@ -27,7 +27,7 @@ get_header(); ?>
       <dl id="endorsement-filters" class="sub-nav">
         <dt>Filter:</dt>
         <dd class="active"><a href="#" data-filter="*">All</a></dd>
-        <dd><a href="#" data-filter=".team">Team</a></dd>
+        <dd><a href="#" data-filter=".team">Team Nova</a></dd>
         <dd><a href="#" data-filter=".pres">President</a></dd>
         <dd><a href="#" data-filter=".vped">VP Education</a></dd>
         <dd><a href="#" data-filter=".vpin">VP Internal</a></dd>

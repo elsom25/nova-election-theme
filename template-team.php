@@ -6,7 +6,7 @@
  */
 
 get_header(); ?>
-<div class="static-page platform">
+<div class="static-page team">
 <?php get_template_part( 'template-static-header' ); ?>
 
 <header class="page-header vertical-wrap">
@@ -76,6 +76,7 @@ get_header(); ?>
                 </div>
               </dd>
             </dl>
+
           </section>
         </article>
       </div>
@@ -97,6 +98,21 @@ get_header(); ?>
             <p>My name is Anjali Gopal, and I’m in 4B Nanotechnology Engineering. Before deciding to go into engineering, I considered a varitey career choices such as a webdesigner, a teacher (doesn’t everybody?), a doctor, and a <i>writer</i>, but eventually, my love for science and math drew me to engineering. I have yet to regret my choice!</p>
             <p>You’ll quickly find that I’m extremely geeky, and have some really peculiar talents. For instance, I know how to say “in the name of the Moon, I shall punish you” in Japanese (a skill that I developed while watching the entire live action version of Pretty Guardian Sailor Moon). I also love to read (mostly fantasy novels; Game of Thrones FTW), and I adore sci-fi movies and TV shows.</p>
             <p>When I’m not geeking out with my latest fangirly obsession, I like to get involved in campus life. I’ve been heavily involved with orientation, and in a variety of Mental Health & Wellness initiatives. I’m extremely passionate about improving student life at Waterloo. I’m very outgoing and love to help people, so feel free to come up and say “Hi!”</p>
+
+            <dl class="accordion accordion-no-expand" data-accordion="">
+              <dd>
+                <a href="#vpin-experience">My experiences</a>
+                <div id="vpin-experience" class="content">
+                  <p>I've done some shit.</p>
+                  <ul class="round">
+                    <li>Thing 1</li>
+                    <li>Thing 2</li>
+                    <li>Thing 3</li>
+                  </ul>
+                </div>
+              </dd>
+            </dl>
+
           </section>
         </article>
       </div>
@@ -125,6 +141,7 @@ get_header(); ?>
                 </div>
               </dd>
             </dl>
+
           </section>
         </article>
       </div>
