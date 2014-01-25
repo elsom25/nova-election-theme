@@ -80,11 +80,11 @@
     }
     h2 { line-height:1.5; }
     p.lead { text-align:center; margin-left:auto; margin-right:auto; max-width:35em; }
-    .item { margin:2em 0; text-align:left; text-align:center;
+    .item { margin:2em auto; max-width:50em; text-align:left; text-align:center;
       @include respond-to(medium) { @include vertical-wrap; text-align:left; }
       a { @include standard-link($primary-color, $primary-color); }
     }
-    .circle { $size:115px; $border-size:5px;
+    .circle { $size:105px; $border-size:5px;
       background:$primary-color; overflow:hidden; display:inline-block;
       width:$size; height:$size;
       border-radius:100%; border:$border-size solid $primary-color;
