@@ -61,6 +61,9 @@
   .team-row, .blog-row { .cta p { position:relative; z-index:1; } }
   .blog-row, .platform-row { padding-top:3em; }
   .blog-row { @include index-hero-row($primary-color, $dark-primary-color, $header-font-color, 82%);
+    .main-blog-post { height:22.65em;
+      section { height:15.5em; overflow:hidden; }
+    }
     article { @include floating-card($off-white);
       time { letter-spacing:0; }
     }

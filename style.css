@@ -2865,26 +2865,30 @@ time { text-transform: none; }
 @media screen and (min-width: 70.5em) { /* line 94, src/sass/modules/_mixins.scss */
   .home .blog-row .border { height: 82%; } }
 /* line 64, src/sass/partials/_index.scss */
-.home .blog-row article { background: #eeeeee; }
+.home .blog-row .main-blog-post { height: 22.65em; }
 /* line 65, src/sass/partials/_index.scss */
+.home .blog-row .main-blog-post section { height: 15.5em; overflow: hidden; }
+/* line 67, src/sass/partials/_index.scss */
+.home .blog-row article { background: #eeeeee; }
+/* line 68, src/sass/partials/_index.scss */
 .home .blog-row article time { letter-spacing: 0; }
-/* line 69, src/sass/partials/_index.scss */
-.home .platform-row article { background: #eeeeee; }
-/* line 70, src/sass/partials/_index.scss */
-.home .platform-row article header { margin-top: 1.5em; margin-bottom: 3em; }
 /* line 72, src/sass/partials/_index.scss */
+.home .platform-row article { background: #eeeeee; }
+/* line 73, src/sass/partials/_index.scss */
+.home .platform-row article header { margin-top: 1.5em; margin-bottom: 3em; }
+/* line 75, src/sass/partials/_index.scss */
 .home .platform-row h1 { color: transparent; text-shadow: 0.04em 0.04em 0.1em rgba(238, 238, 238, 0.25), 0 0 0 #ba020c; font-size: 2em; letter-spacing: 0.1em; position: relative; display: inline; padding: 0; margin: 0 0 2em; }
-@media screen and (min-width: 40.063em) { /* line 72, src/sass/partials/_index.scss */
+@media screen and (min-width: 40.063em) { /* line 75, src/sass/partials/_index.scss */
   .home .platform-row h1 { font-size: 3em; } }
-/* line 78, src/sass/partials/_index.scss */
+/* line 81, src/sass/partials/_index.scss */
 .home .platform-row h2 { line-height: 1.5; }
-/* line 79, src/sass/partials/_index.scss */
-.home .platform-row p.lead { text-align: center; margin-left: auto; margin-right: auto; max-width: 35em; }
-/* line 80, src/sass/partials/_index.scss */
-.home .platform-row .item { margin: 2em 0; text-align: left; text-align: center; }
-@media screen and (min-width: 40.063em) { /* line 80, src/sass/partials/_index.scss */
-  .home .platform-row .item { position: relative; width: 100%; display: table; height: 100%; text-align: left; } }
 /* line 82, src/sass/partials/_index.scss */
+.home .platform-row p.lead { text-align: center; margin-left: auto; margin-right: auto; max-width: 35em; }
+/* line 83, src/sass/partials/_index.scss */
+.home .platform-row .item { margin: 2em 0; text-align: left; text-align: center; }
+@media screen and (min-width: 40.063em) { /* line 83, src/sass/partials/_index.scss */
+  .home .platform-row .item { position: relative; width: 100%; display: table; height: 100%; text-align: left; } }
+/* line 85, src/sass/partials/_index.scss */
 .home .platform-row .item a { color: #af2229; border-bottom: 1px dotted #af2229; }
 /* line 4, src/sass/modules/_mixins.scss */
 .home .platform-row .item a:focus { border: 1px dashed; }
@@ -2892,13 +2896,13 @@ time { text-transform: none; }
 .home .platform-row .item a:hover { background: rgba(175, 34, 41, 0.25); border-bottom: 1px solid; }
 /* line 6, src/sass/modules/_mixins.scss */
 .home .platform-row .item a:active { position: relative; top: 1px; }
-/* line 84, src/sass/partials/_index.scss */
+/* line 87, src/sass/partials/_index.scss */
 .home .platform-row .circle { background: #af2229; overflow: hidden; display: inline-block; width: 115px; height: 115px; border-radius: 100%; border: 5px solid #af2229; }
-@media screen and (min-width: 40.063em) { /* line 84, src/sass/partials/_index.scss */
+@media screen and (min-width: 40.063em) { /* line 87, src/sass/partials/_index.scss */
   .home .platform-row .circle { margin-right: 2em; } }
-/* line 89, src/sass/partials/_index.scss */
+/* line 92, src/sass/partials/_index.scss */
 .home .platform-row .circle .icon-wrap { width: 110px; height: 105px; text-align: center; }
-/* line 90, src/sass/partials/_index.scss */
+/* line 93, src/sass/partials/_index.scss */
 .home .platform-row .circle .icon-wrap i { color: #eeeeee; }
 
 /* line 4, src/sass/partials/_blog.scss */

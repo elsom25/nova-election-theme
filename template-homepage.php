@@ -87,7 +87,7 @@ get_header(); ?>
           <?php query_posts('showposts=1'); ?>
           <?php while ( have_posts() ) : the_post(); ?>
 
-            <article id="post-<?php the_ID(); ?> TEST" class="acts-as-link" role="article" <?php post_class(); ?>>
+            <article id="post-<?php the_ID(); ?>" class="acts-as-link main-blog-post" role="article" <?php post_class(); ?>>
               <header class="post-header">
                 <h2 class="post-title">
                   <a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
