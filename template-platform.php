@@ -39,7 +39,7 @@ get_header(); ?>
             <div class="content">
               <h1><i class="fa fa-comments-o"></i> Communication</h1>
               <p>
-                Team Nova believes that communication is one of Feds’ biggest flaws. We’ll focus on creating dialogue and interaction, help you find what’s happening on campus, and make sure that the information you need is at your fingertips.
+                Team Nova believes that communication is one of Feds' biggest flaws. We'll focus on creating dialogue and interaction, help you find what's happening on campus, and make sure that the information you need is at your fingertips.
               </p>
             </div>
           </header>
@@ -60,7 +60,7 @@ get_header(); ?>
             <div class="content">
               <h1><i class="fa fa-cogs"></i> Collaboration</h1>
               <p>
-                We will collaborate with you to improve your experiences and your performance here, while supporting student needs. Focusing on supporting all of us, whether thats improving the Mental Health resources on campus, or supporting our faculty societies. We’re also making meaningful opportunities for Feds to work closer with students, and better enable success.
+                Team Nova wants collaborate more with you—the talented students of Waterloo. We'll focus on supporting your success, creating new and exciting opportunities, and supporting student groups.
               </p>
             </div>
           </header>
@@ -81,8 +81,7 @@ get_header(); ?>
             <div class="content">
               <h1><i class="fa fa-group"></i> Community</h1>
               <p>
-                We will work to strengthen our community here at uWaterloo. Focusing on improving the physical space of our community, ensuring we all can fit and enjoy our time on campus; fostering tighter community relationships, and supporting and engaging new students to our community.
-              </p>
+                Team Nova expects the community at Waterloo to meet your needs. We'll focus on improving the physical space, building better community relationships, and making campus a safer place.</p>
             </div>
           </header>
           <section>

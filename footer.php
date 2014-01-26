@@ -82,12 +82,18 @@
       <p>To those who made this campaign possible, we salute you!</p>
       <ul class="disc">
         <li><strong>Charles Kuno</strong>&mdash;Lead Campaign Manager</li>
-        <li><strong>Elizabeth Bate</strong>&mdash;Campaign Manager</li>
         <li><strong>Michael Leung</strong>&mdash;Campaign Manager</li>
         <li><strong>Riddhi Dastidar</strong>&mdash;Campaign Manager</li>
+        <li><strong>Elizabeth Bate</strong>&mdash;Campaign Strategy</li>
+        <li><strong>Andrew Fisher</strong>&mdash;Campaign Review &amp; Strategy</li>
+        <li><strong>Mary Hayhow</strong>&mdash;Class Talks</li>
+        <li><strong>Chris Candevelde</strong>&mdash;Social Media</li>
+
         <li><strong>Kevin Nause</strong>&mdash;Photographer</li>
-        <li><strong>Evan Brotherston</strong>&mdash;Filmographer</li>
+        <li><strong>Evan &amp; Fay Brotherston</strong>&mdash;Filmographers</li>
         <li><strong>Austin Fisher</strong>&mdash;Video Equipment</li>
+
+        <li><strong>Dia Rahman</strong>&mdash;Graphics</li>
       </ul>
     </section>
     <a class="close-reveal-modal">&#215;</a>

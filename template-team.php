@@ -48,6 +48,7 @@ get_header(); ?>
                     <li>Orientation Programs Assistant, Federation of Students</li>
                     <li>Director, Board of Directors, Federation of Students</li>
                     <li>Math Councilor, Federation of Students</li>
+                    <li>Almost every committee of Council, Federation of Students</li>
                   </ul>
                 </div>
               </dd>
