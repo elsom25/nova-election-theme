@@ -84,8 +84,8 @@
         <li><strong>Charles Kuno</strong>&mdash;Lead Campaign Manager</li>
         <li><strong>Michael Leung</strong>&mdash;Campaign Manager</li>
         <li><strong>Riddhi Dastidar</strong>&mdash;Campaign Manager</li>
-        <li><strong>Elizabeth Bate</strong>&mdash;Campaign Strategy</li>
-        <li><strong>Andrew Fisher</strong>&mdash;Campaign Review &amp; Strategy</li>
+        <li><strong>Elizabeth Bate</strong>&mdash;Campaign Strategist</li>
+        <li><strong>Andrew Fisher</strong>&mdash;Campaign Review &amp; Strategist</li>
         <li><strong>Mary Hayhow</strong>&mdash;Class Talks</li>
         <li><strong>Chris Vandevelde</strong>&mdash;Social Media</li>
 
@@ -94,6 +94,7 @@
         <li><strong>Austin Fisher</strong>&mdash;Video Equipment</li>
 
         <li><strong>Dia Rahman</strong>&mdash;Graphics</li>
+        <li><strong>Lots of lovely people</strong>&mdash;who ran around campus putting up posters</li>
       </ul>
     </section>
     <a class="close-reveal-modal">&#215;</a>
