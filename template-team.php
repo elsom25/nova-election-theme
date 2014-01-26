@@ -39,11 +39,15 @@ get_header(); ?>
               <dd>
                 <a href="#pres-experience">My experiences</a>
                 <div id="pres-experience" class="content">
-                  <p>I've done some shit.</p>
                   <ul class="round">
-                    <li>Thing 1</li>
-                    <li>Thing 2</li>
-                    <li>Thing 3</li>
+                    <li>Governor, Board of Governors, University of Waterloo</li>
+                    <li>Student Space Committee, University of Waterloo</li>
+                    <li>Student Technology Steering Committee, University of Waterloo</li>
+                    <li>Math Student Senator, University of Waterloo</li>
+                    <li>Math Federation Orientation Committee, Federation of Students</li>
+                    <li>Orientation Programs Assistant, Federation of Students</li>
+                    <li>Director, Board of Directors, Federation of Students</li>
+                    <li>Math Councilor, Federation of Students</li>
                   </ul>
                 </div>
               </dd>
@@ -67,11 +71,11 @@ get_header(); ?>
               <dd>
                 <a href="#vped-experience">My experiences</a>
                 <div id="vped-experience" class="content">
-                  <p>I've done some shit.</p>
                   <ul class="round">
-                    <li>Thing 1</li>
-                    <li>Thing 2</li>
-                    <li>Thing 3</li>
+                    <li>Chairperson, Board of Directors, Federation of Students</li>
+                    <li>Residence Life Don</li>
+                    <li>Arts Councilor, Federation of Students</li>
+                    <li>Advocacy Coordinator, Federation of Students</li>
                   </ul>
                 </div>
               </dd>
