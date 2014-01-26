@@ -152,7 +152,7 @@ get_header(); ?>
             <h1>What We'll Do</h1>
           </header>
           <section>
-            <p class="lead">With a focused vision&emdash;Communication, Collaboration, and Community&emdash;Team Nova wants to improve your experience at Waterloo. We've put together a set of realistic proposals that we're incredibly excited about.</p>
+            <p class="lead">With a focused vision&mdash;Communication, Collaboration, and Community&mdash;Team Nova wants to improve your experience at Waterloo. We've put together a set of realistic proposals that we're incredibly excited about.</p>
 
             <div class="item acts-as-link">
               <div class="circle">
