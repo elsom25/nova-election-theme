@@ -115,7 +115,7 @@ get_header(); ?>
                   President
                 </h1>
                 <blockquote>
-                  I believe in a Feds that students are excited to work with, that they understand, and truly have a high-value return on their investment. This is a terrible quote, but, for checking design, it will do.
+                  I want to create a culture at Feds that not only welcomes students, but encourages and celebrates their involvement in our organization.
                   <cite>Jesse McGinnis</cite>
                 </blockquote>
               </div>
