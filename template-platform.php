@@ -15,7 +15,7 @@ get_header(); ?>
       <div class="vertical">
         <h1>Platform</h1>
         <p class="lead">
-          Feds needs to build on the incredibly active student community here at Waterloo. With a focused vision—Communication, Collaboration, and Community—Team Nova has the experience, passion, and love of working with students to make these ideas a reality.
+          Feds needs to build on the incredibly active student community here at Waterloo. Team Nova has the experience, passion, and love of working with students to make these ideas a reality.
         </p>
       </div>
     </div>
