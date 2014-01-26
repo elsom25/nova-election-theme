@@ -162,7 +162,7 @@ get_header(); ?>
               </div>
               <div class="vertical">
                 <h2>
-                  <a href="<?php echo $plat_url; ?>#platform-1">Make It Easy to Get Involved with an Event Calendar and Involvement Compass</a>
+                  <a href="<?php echo $plat_url; ?>#communication-pillar-make-it-easy-to-get-involved-with-an-event-calendar-and-involvement-compass">Make It Easy to Get Involved with an Event Calendar and Involvement Compass</a>
                 </h2>
               </div>
             </div>
@@ -174,7 +174,7 @@ get_header(); ?>
               </div>
               <div class="vertical">
                 <h2>
-                  <a href="<?php echo $plat_url; ?>#platform-2">Improve Mental Health Resources on Campus</a>
+                  <a href="<?php echo $plat_url; ?>#collaboration-pillar-improve-mental-health-resources-on-campus">Improve Mental Health Resources on Campus</a>
                 </h2>
               </div>
             </div>
@@ -186,7 +186,7 @@ get_header(); ?>
               </div>
               <div class="vertical">
                 <h2>
-                  <a href="<?php echo $plat_url; ?>#platform-3">Renovate the SLC and Advocate for Higher-Quality Student Space</a>
+                  <a href="<?php echo $plat_url; ?>#community-pillar-vote-on-new-student-space-by-february-2015">Vote on New Student Space by February 2015</a>
                 </h2>
               </div>
             </div>
