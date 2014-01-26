@@ -142,9 +142,7 @@ get_header(); ?>
                 <h1>
                   Vice-President Education
                 </h1>
-                <p>
-                  Lorem ipsum In voluptate eiusmod aute minim et consequat pariatur dolore deserunt esse ea in exercitation aute laboris veniam ullamco incididunt dolore commodo do sit fugiat
-                </p>
+                <p>My experience at this University both in and out of the classroom has inspired me to give back to this great community. I am a strong believer in student advocacy and I believe that Team Nova and Feds can do more to help students.</p>
               </div>
             </div>
           </header>
@@ -169,9 +167,7 @@ get_header(); ?>
                 <h1>
                   Vice-President Internal
                 </h1>
-                <p>
-                  Lorem ipsum In voluptate eiusmod aute minim et consequat pariatur dolore deserunt esse ea in exercitation aute laboris veniam ullamco incididunt dolore commodo do sit fugiat
-                </p>
+                <p>I empathize deeply with students, and believe student engagement is a key component of a successful university experience. I want to create a community that not only gives students the tools they need to be successful, but also allows students to shape the community they want to see.</p>
               </div>
             </div>
           </header>
