@@ -87,7 +87,7 @@
         <li><strong>Elizabeth Bate</strong>&mdash;Campaign Strategy</li>
         <li><strong>Andrew Fisher</strong>&mdash;Campaign Review &amp; Strategy</li>
         <li><strong>Mary Hayhow</strong>&mdash;Class Talks</li>
-        <li><strong>Chris Candevelde</strong>&mdash;Social Media</li>
+        <li><strong>Chris Vandevelde</strong>&mdash;Social Media</li>
 
         <li><strong>Kevin Nause</strong>&mdash;Photographer</li>
         <li><strong>Evan &amp; Fay Brotherston</strong>&mdash;Filmographers</li>
