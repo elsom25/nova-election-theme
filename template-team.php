@@ -142,9 +142,10 @@ get_header(); ?>
                 <a href="#vpof-experience">My experiences</a>
                 <div id="vpof-experience" class="content">
                   <ul class="round">
-                    <li>Thing 1</li>
-                    <li>Thing 2</li>
-                    <li>Thing 3</li>
+                    <li>MathSoc President</li>
+                    <li>Opentext Product Marketing and Social Media Specialist</li>
+                    <li>Math Councilor, Federation of Students</li>
+                    <li>Math C&D Management Board</li>
                   </ul>
                 </div>
               </dd>
