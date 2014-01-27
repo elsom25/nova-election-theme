@@ -115,9 +115,9 @@ get_header(); ?>
                     <li>GLOW Liaison, Engineering Society</li>
                     <li>Student Mentor, Women in Engineering & Engineering Society</li>
                     <li>Year Spirit Director, Engineering Society</li>
-                    <li>Sandford Flemming Foundation Director, Engineering Society</li>
+                    <li>Sandford Flemming Foundation Representative, Engineering Society</li>
                     <li>Council Member/Class Representative, Engineering Society</li>
-                    <li>Professoinal Engagement Team Member, Engineers Without Borders</li>
+                    <li>Professional Engagement Team Member, Engineers Without Borders</li>
                     <li>Staff Writer & Copy Editor, The Iron warrior</li>
                   </ul>
                 </div>
