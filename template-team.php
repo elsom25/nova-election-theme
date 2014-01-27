@@ -110,9 +110,15 @@ get_header(); ?>
                 <div id="vpin-experience" class="content">
                   <p>I've done some shit.</p>
                   <ul class="round">
-                    <li>Thing 1</li>
-                    <li>Thing 2</li>
-                    <li>Thing 3</li>
+                    <li>Engineering Federation Orientation Committee, Federation of Students</li>
+                    <li>Mental Health Awareness Director, Engineering Society</li>
+                    <li>GLOW Liaison, Engineering Society</li>
+                    <li>Student Mentor, Women in Engineering & Engineering Society</li>
+                    <li>Year Spirit Director, Engineering Society</li>
+                    <li>Sandford Flemming Foundation Director, Engineering Society</li>
+                    <li>Council Member/Class Representative, Engineering Society</li>
+                    <li>Professoinal Engagement Team Member, Engineers Without Borders</li>
+                    <li>Staff Writer & Copy Editor, The Iron warrior</li>
                   </ul>
                 </div>
               </dd>
