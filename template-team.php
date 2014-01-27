@@ -97,7 +97,7 @@ get_header(); ?>
               Anjali Gopal
             </h1>
             <h2>
-              VP Internal
+              VP Internal Candidate
             </h2>
             <p>My name is Anjali Gopal, and I’m in 4B Nanotechnology Engineering. Before deciding to go into engineering, I considered a varitey career choices such as a webdesigner, a teacher (doesn’t everybody?), a doctor, and a <i>writer</i>, but eventually, my love for science and math drew me to engineering. I have yet to regret my choice!</p>
             <p>You’ll quickly find that I’m extremely geeky, and have some really peculiar talents. For instance, I know how to say “in the name of the Moon, I shall punish you” in Japanese (a skill that I developed while watching the entire live action version of Pretty Guardian Sailor Moon). I also love to read (mostly fantasy novels; Game of Thrones FTW), and I adore sci-fi movies and TV shows.</p>
