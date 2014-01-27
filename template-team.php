@@ -107,7 +107,6 @@ get_header(); ?>
               <dd>
                 <a href="#vpin-experience">My experiences</a>
                 <div id="vpin-experience" class="content">
-                  <p>I've done some shit.</p>
                   <ul class="round">
                     <li>Engineering Federation Orientation Committee, Federation of Students</li>
                     <li>Mental Health Awareness Director, Engineering Society</li>
@@ -142,7 +141,6 @@ get_header(); ?>
               <dd>
                 <a href="#vpof-experience">My experiences</a>
                 <div id="vpof-experience" class="content">
-                  <p>I've done some shit.</p>
                   <ul class="round">
                     <li>Thing 1</li>
                     <li>Thing 2</li>
