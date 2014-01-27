@@ -84,7 +84,6 @@
         <li><strong>Charles Kuno</strong>&mdash;Lead Campaign Manager</li>
         <li><strong>Michael Leung</strong>&mdash;Campaign Manager</li>
         <li><strong>Riddhi Dastidar</strong>&mdash;Campaign Manager</li>
-        <li><strong>Elizabeth Bate</strong>&mdash;Campaign Strategist</li>
         <li><strong>Andrew Fisher</strong>&mdash;Campaign Review &amp; Strategist</li>
         <li><strong>Mary Hayhow</strong>&mdash;Class Talks</li>
         <li><strong>Chris Vandevelde</strong>&mdash;Social Media</li>
