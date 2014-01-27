@@ -116,7 +116,7 @@ get_header(); ?>
                     <li>Sandford Flemming Foundation Representative, Engineering Society</li>
                     <li>Council Member/Class Representative, Engineering Society</li>
                     <li>Professional Engagement Team Member, Engineers Without Borders</li>
-                    <li>Staff Writer & Copy Editor, The Iron warrior</li>
+                    <li>Staff Writer &amp; Copy Editor, The Iron warrior</li>
                   </ul>
                 </div>
               </dd>
@@ -142,9 +142,9 @@ get_header(); ?>
                 <a href="#vpof-experience">My experiences</a>
                 <div id="vpof-experience" class="content">
                   <ul class="round">
-                    <li>MathSoc President</li>
-                    <li>Opentext Product Marketing and Social Media Specialist</li>
-                    <li>Math C&D Management Board</li>
+                    <li>President, Mathematics Society</li>
+                    <li>Product Marketing and Social Media Specialist, OpenText</li>
+                    <li>C&D Management Board, Mathematics</li>
                     <li>Math Councilor, Federation of Students</li>
                     <li>International Business Case Competition Finalist</li>
                     <li>Ethics, Marketing, Business Strategy, and Family Business Business Case Competitions</li>
