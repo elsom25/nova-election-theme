@@ -192,9 +192,7 @@ get_header(); ?>
                 <h1>
                   Vice-President Operations &amp; Finance
                 </h1>
-                <p>
-                  Communication is how you know what’s going on in Feds and the community and it’s key for showing you ways to get involved.
-                </p>
+                <p>My team and I are dedicated to finding better ways for Feds to interact with students. We will put in the extra effort to ensure there are a number of ways you can get in touch with us, and there are a number of ways we will get in touch with you.</p>
               </div>
             </div>
           </header>
