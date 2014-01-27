@@ -144,8 +144,10 @@ get_header(); ?>
                   <ul class="round">
                     <li>MathSoc President</li>
                     <li>Opentext Product Marketing and Social Media Specialist</li>
-                    <li>Math Councilor, Federation of Students</li>
                     <li>Math C&D Management Board</li>
+                    <li>Math Councilor, Federation of Students</li>
+                    <li>International Business Case Competition Finalist</li>
+                    <li>Ethics, Marketing, Business Strategy, and Family Business Business Case Competitions</li>
                   </ul>
                 </div>
               </dd>
