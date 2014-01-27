@@ -193,7 +193,7 @@ get_header(); ?>
                   Vice-President Operations &amp; Finance
                 </h1>
                 <p>
-                  Lorem ipsum In voluptate eiusmod aute minim et consequat pariatur dolore deserunt esse ea in exercitation aute laboris veniam ullamco incididunt dolore commodo do sit fugiat
+                  Communication is how you know what’s going on in Feds and the community and it’s key for showing you ways to get involved.
                 </p>
               </div>
             </div>
