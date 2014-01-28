@@ -85,10 +85,12 @@
         <li><strong>Michael Leung</strong>&mdash;Campaign Manager</li>
         <li><strong>Riddhi Dastidar</strong>&mdash;Campaign Manager</li>
         <li><strong>Andrew Fisher</strong>&mdash;Campaign Review &amp; Strategist</li>
-        <li><strong>Mary Hayhow</strong>&mdash;Class Talks</li>
         <li><strong>Chris Vandevelde</strong>&mdash;Social Media</li>
+        <li><strong>Jeric Pauig</strong>&mdash;Debate Coach</li>
+        <li><strong>Mary Hayhow</strong>&mdash;Class Talks</li>
 
         <li><strong>Kevin Nause</strong>&mdash;Photographer</li>
+        <li><strong>Anthony Clark</strong>&mdash;Photographer Assistant</li>
         <li><strong>Evan &amp; Fay Brotherston</strong>&mdash;Filmographers</li>
         <li><strong>Austin Fisher</strong>&mdash;Video Equipment</li>
 
