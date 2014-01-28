@@ -34,7 +34,7 @@ get_header(); ?>
   </nav>
   <div class="flex-video-wrap">
     <div class="flex-video-safe">
-      <iframe width="853" height="480" src="//www.youtube.com/embed/HWoYoWGhJjQ" frameborder="0" allowfullscreen></iframe>
+      <iframe width="853" height="480" src="//www.youtube.com/embed/vjdfUXf4ldA" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
 </header>
