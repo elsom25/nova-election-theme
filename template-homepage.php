@@ -154,7 +154,7 @@ get_header(); ?>
           <section>
             <p class="lead">With a focused vision&mdash;Communication, Collaboration, and Community&mdash;Team Nova wants to improve your experience at Waterloo. We've put together a set of realistic proposals that we're incredibly excited about.</p>
 
-            <div class="item acts-as-link">
+            <div class="item">
               <div class="circle">
                 <div class="icon-wrap">
                   <i class="fa fa-comments-o fa-4x"></i>
@@ -166,7 +166,7 @@ get_header(); ?>
                 </h2>
               </div>
             </div>
-            <div class="item acts-as-link">
+            <div class="item">
               <div class="circle">
                 <div class="icon-wrap">
                   <i class="fa fa-cogs fa-4x"></i>
@@ -178,7 +178,7 @@ get_header(); ?>
                 </h2>
               </div>
             </div>
-            <div class="item acts-as-link">
+            <div class="item">
               <div class="circle">
                 <div class="icon-wrap">
                   <i class="fa fa-group fa-4x"></i>
