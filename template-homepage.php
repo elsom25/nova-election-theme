@@ -33,7 +33,7 @@ get_header(); ?>
     </ul>
   </nav>
   <div class="flex-video-wrap">
-    <div class="flex-video-safe">
+    <div class="flex-video-safe widescreen">
       <iframe width="853" height="480" src="//www.youtube.com/embed/vjdfUXf4ldA" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
