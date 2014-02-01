@@ -95,6 +95,7 @@
         <li><strong>Austin Fisher</strong>&mdash;Video Equipment</li>
 
         <li><strong>Dia Rahman</strong>&mdash;Graphics</li>
+        <li><strong>Michelle Sterba</strong>&mdash;Awesome Concert Picture</li>
         <li><strong>Lots of lovely people</strong>&mdash;who ran around campus putting up posters</li>
       </ul>
     </section>
