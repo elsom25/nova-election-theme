@@ -66,7 +66,7 @@
       </ul>
       <div class="text-center">
         <p><strong>Voting is taking place February 11-13; Quick and Simple!</strong></p>
-        <a href="//vote.feds.uwaterloo.ca/ballot/" class="button radius large vote">Vote <?php bloginfo('name'); ?> Now!</a>
+        <a href="//vote.feds.ca/" class="button radius large vote">Vote <?php bloginfo('name'); ?> Now!</a>
         <p><small>If you're having any difficulties with voting, or experience any other problems relating to the election, <a href="mailto:elections@feds.ca" target="_blank">please message the Electoral Officer</a>.</small></p>
       </div>
     </section>
