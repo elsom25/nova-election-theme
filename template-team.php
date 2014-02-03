@@ -75,7 +75,7 @@ get_header(); ?>
                     <li>Chairperson, Board of Directors, Federation of Students</li>
                     <li>Residence Life Don</li>
                     <li>Arts Councilor, Federation of Students</li>
-                    <li>Advocacy Coordinator, Federation of Students</li>
+                    <li>Advocacy Coordinator Co-op, VP Education Portfolio, Federation of Students</li>
                   </ul>
                 </div>
               </dd>
